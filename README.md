@@ -6,6 +6,7 @@ I was inspired to make this as a way to get practice with some basic hardware an
 The macro-tin is a four key macro pad that runs on a Raspberry Pi Pico microcontroller. The keys are programmable and customizable based on the user's needs. As I plan to use it, right now the keys are: 1) Copy/paste 2) Take a screen shot 3) Take a screen recording and 4) printing. 
 <br/><br/>
 Note: a macro pad is a small keyboard with each key being a shortcut. When pressed, it executes the longer command and is meant to increase productivity. 
+<br/><br/>
 Zine:
 <br/><br/>
 <img width="1410" height="2000" alt="image" src="https://github.com/user-attachments/assets/b0c7c6a0-8ad9-4a82-8bcc-6324e4970b0b" />
