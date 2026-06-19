@@ -16,7 +16,10 @@ The Macro-Tin works by using a Raspberry Pi Pico as the main controller. Each of
 The Pico runs firmware that reads which key was pressed and translates that button press into a keyboard shortcut. To the computer, the Macro-Tin acts like a small USB keyboard. Instead of typing letters, each key sends a programmed command, such as copy and paste, taking a screenshot, starting a screen recording, or printing.
 
 The keys are programmable, meaning the shortcuts are not permanently fixed. The key functions can be changed in the firmware depending on what the user wants the macropad to do. This makes the Macro-Tin useful for different workflows, such as schoolwork, CAD design, coding, editing, or everyday computer tasks.
-
+<br/><br/>
+Current Functionality: 
+<img width="377" height="84" alt="image" src="https://github.com/user-attachments/assets/22ef5872-1540-4c41-8e79-ed6a807baa48" />
+<br/><br/>
 The case is designed to look like a sardine tin, making the project both functional and decorative. The PCB and Raspberry Pi Pico are housed inside the case, while the keycaps are accessible from the top. This allows the macropad to work as a useful desk tool while still having a fun visual design.
 
 ### Schematic
