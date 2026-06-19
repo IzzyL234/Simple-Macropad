@@ -4,6 +4,7 @@ I was inspired to make this as a way to get practice with some basic hardware an
 
 ## What it is: 
 The macro-tin is a four key macro pad that runs on a Raspberry Pi Pico microcontroller. The keys are programmable and customizable based on the user's needs. As I plan to use it, right now the keys are: 1) Copy/paste 2) Take a screen shot 3) Take a screen recording and 4) printing. 
+<br/><br/>
 Note: a macro pad is a small keyboard with each key being a shortcut. When pressed, it executes the longer command and is meant to increase productivity. 
 Zine:
 <img width="1410" height="2000" alt="image" src="https://github.com/user-attachments/assets/b0c7c6a0-8ad9-4a82-8bcc-6324e4970b0b" />
@@ -20,19 +21,20 @@ The case is designed to look like a sardine tin, making the project both functio
 
 ### Schematic
 <img width="238" height="223" alt="image" src="https://github.com/user-attachments/assets/600acf50-d4ba-4e5a-9bb7-99ad3be6c42c" />
+<br/><br/>
 - All keys are connected to GND (ground)
 - Each key is wired to a GPIO# pin on the microcontroller
   
 ### PCB
-<img width="236" height="181" alt="image" src="https://github.com/user-attachments/assets/7846e944-f056-46f3-b996-07c8908ff39e" />
 
 
-<img width="586" height="460" alt="image" src="https://github.com/user-attachments/assets/726d071b-0498-4598-bd02-7c2264b59231" />
-/n 
-<img width="457" height="364" alt="image" src="https://github.com/user-attachments/assets/9166c8ab-737c-4cf4-8adb-753cf104ee49" />
+<img width="301" height="200" alt="image" src="https://github.com/user-attachments/assets/a8946e56-8303-4404-9189-a366a3300d99" />
+
+<img width="361" height="243" alt="image" src="https://github.com/user-attachments/assets/f58b9e52-8ca2-46bd-a1b8-0e1565ae96cc" />
+<img width="392" height="255" alt="image" src="https://github.com/user-attachments/assets/6ccad750-d75d-4abb-8e9b-dce9c5495d84" />
 
 
-
+<br/><br/>
 - The Raspberry Pi Pico is on the bottom of the board to make it easier to organize things underneath the keys in the casing
 - The keys are in the Cherry Mx Profile
 - There are mounting holes on the edges to secure the PCB into the container/casing
@@ -40,6 +42,7 @@ The case is designed to look like a sardine tin, making the project both functio
 
 ### Outer casing
 <img width="511" height="182" alt="image" src="https://github.com/user-attachments/assets/89f62e90-a88d-494d-a23f-9fc6cf20def1" />
+<br/><br/>
 - The outer casing has three parts: The outside box, the decoration layer, and the lid (becasue a sarine box needs a lid!)
 
 ### Firmware
@@ -68,4 +71,12 @@ Firmware is uploaded to the github but is untested as of now.
 #### More Details:
 - Voltage: 5V through USB-C/micro-USB to the Raspberry Pi Pico
 
+### BOM
+| Item                    |                      Cost | Link                                                                                               |
+| ----------------------- | ------------------------: | -------------------------------------------------------------------------------------------------- |
+| Raspberry Pi Pico 1     |                     $7.00 | [PiShop](https://www.pishop.us/product/raspberry-pi-pico-wh-pre-soldered-headers/?src=raspberrypi) |
+| Mechanical Switches (4) |                     $0.99 | [AliExpress](https://www.aliexpress.us/item/3256806066297936.html)                                 |
+| Key Caps (4)            |                     $4.31 | [AliExpress](https://www.aliexpress.us/item/3256809198369912.html)                                 |
+| Custom PCB Board        | $20.07 including shipping | [NextPCB](https://www.nextpcb.com/)                                                                |
+| **Total**               |                **$32.37** |                                                                                                    |
 
