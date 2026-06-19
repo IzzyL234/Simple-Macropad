@@ -1,4 +1,4 @@
-# Macro-Tin 
+<img width="689" height="157" alt="image" src="https://github.com/user-attachments/assets/69a53f88-753e-4547-ba0f-8dd47d728cde" /># Macro-Tin 
 
 I was inspired to make this as a way to get practice with some basic hardware and make somethng that is useful everyday! I wanted to be creative with the design, and after some looking online, found my way back to a sardine tin design that I had seen several times pop up on my feed. I thought that it was a fun and summery design and would be a cute desk decoration as well, when i'm not using it. Thus, the macro tin came to be! 
 
@@ -7,6 +7,7 @@ The macro-tin is a four key macro pad that runs on a Raspberry Pi Pico microcont
 <br/><br/>
 Note: a macro pad is a small keyboard with each key being a shortcut. When pressed, it executes the longer command and is meant to increase productivity. 
 Zine:
+<br/><br/>
 <img width="1410" height="2000" alt="image" src="https://github.com/user-attachments/assets/b0c7c6a0-8ad9-4a82-8bcc-6324e4970b0b" />
 
 ## How it Works:
@@ -20,7 +21,6 @@ The keys are programmable, meaning the shortcuts are not permanently fixed. The 
 Current Functionality: 
 <br/><br/>
 <img width="689" height="157" alt="image" src="https://github.com/user-attachments/assets/8d6d360c-4328-49b3-95c0-c9dbd7326a48" />
-
 <br/><br/>
 The case is designed to look like a sardine tin, making the project both functional and decorative. The PCB and Raspberry Pi Pico are housed inside the case, while the keycaps are accessible from the top. This allows the macropad to work as a useful desk tool while still having a fun visual design.
 
