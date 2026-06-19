@@ -72,11 +72,11 @@ Firmware is uploaded to the github but is untested as of now.
 - Voltage: 5V through USB-C/micro-USB to the Raspberry Pi Pico
 
 ### BOM
-| Item                    |                      Cost | Link                                                                                               |
-| ----------------------- | ------------------------: | -------------------------------------------------------------------------------------------------- |
-| Raspberry Pi Pico 1     |                     $7.00 | [PiShop](https://www.pishop.us/product/raspberry-pi-pico-wh-pre-soldered-headers/?src=raspberrypi) |
-| Mechanical Switches (4) |                     $0.99 | [AliExpress](https://www.aliexpress.us/item/3256806066297936.html)                                 |
-| Key Caps (4)            |                     $4.31 | [AliExpress](https://www.aliexpress.us/item/3256809198369912.html)                                 |
-| Custom PCB Board        | $20.07 including shipping | [NextPCB](https://www.nextpcb.com/)                                                                |
-| **Total**               |                **$32.37** |                                                                                                    |
+| Item                    |                      Cost | Link                                                                                     |
+| ----------------------- | ------------------------: | ---------------------------------------------------------------------------------------- |
+| Raspberry Pi Pico 1     |                     $7.00 | https://www.pishop.us/product/raspberry-pi-pico-wh-pre-soldered-headers/?src=raspberrypi |
+| Mechanical Switches (4) |                     $0.99 | https://www.aliexpress.us/item/3256806066297936.html                                     |
+| Key Caps (4)            |                     $4.31 | https://www.aliexpress.us/item/3256809198369912.html                                     |
+| Custom PCB Board        | $20.07 including shipping | https://www.nextpcb.com/                                                                 |
+| **Total**               |                **$32.37** |                                                                                          |
 
