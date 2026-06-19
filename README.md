@@ -1,7 +1,71 @@
-# Simple-Macropad
+# Macro-Tin 
 
+I was inspired to make this as a way to get practice with some basic hardware and make somethng that is useful everyday! I wanted to be creative with the design, and after some looking online, found my way back to a sardine tin design that I had seen several times pop up on my feed. I thought that it was a fun and summery design and would be a cute desk decoration as well, when i'm not using it. Thus, the macro tin came to be! 
+
+## What it is: 
+The macro-tin is a four key macro pad that runs on a Raspberry Pi Pico microcontroller. The keys are programmable and customizable based on the user's needs. As I plan to use it, right now the keys are: 1) Copy/paste 2) Take a screen shot 3) Take a screen recording and 4) printing. 
+Note: a macro pad is a small keyboard with each key being a shortcut. When pressed, it executes the longer command and is meant to increase productivity. 
 Zine:
 <img width="1410" height="2000" alt="image" src="https://github.com/user-attachments/assets/b0c7c6a0-8ad9-4a82-8bcc-6324e4970b0b" />
 
+## How it Works:
+
+The Macro-Tin works by using a Raspberry Pi Pico as the main controller. Each of the four keys is connected to the Pico through the PCB. When a key is pressed, the switch closes the circuit and sends a signal to one of the Pico’s input pins.
+
+The Pico runs firmware that reads which key was pressed and translates that button press into a keyboard shortcut. To the computer, the Macro-Tin acts like a small USB keyboard. Instead of typing letters, each key sends a programmed command, such as copy and paste, taking a screenshot, starting a screen recording, or printing.
+
+The keys are programmable, meaning the shortcuts are not permanently fixed. The key functions can be changed in the firmware depending on what the user wants the macropad to do. This makes the Macro-Tin useful for different workflows, such as schoolwork, CAD design, coding, editing, or everyday computer tasks.
+
+The case is designed to look like a sardine tin, making the project both functional and decorative. The PCB and Raspberry Pi Pico are housed inside the case, while the keycaps are accessible from the top. This allows the macropad to work as a useful desk tool while still having a fun visual design.
+
+### Schematic
+<img width="238" height="223" alt="image" src="https://github.com/user-attachments/assets/600acf50-d4ba-4e5a-9bb7-99ad3be6c42c" />
+- All keys are connected to GND (ground)
+- Each key is wired to a GPIO# pin on the microcontroller
+  
+### PCB
+<img width="236" height="181" alt="image" src="https://github.com/user-attachments/assets/7846e944-f056-46f3-b996-07c8908ff39e" />
+
+
 <img width="586" height="460" alt="image" src="https://github.com/user-attachments/assets/726d071b-0498-4598-bd02-7c2264b59231" />
+/n 
 <img width="457" height="364" alt="image" src="https://github.com/user-attachments/assets/9166c8ab-737c-4cf4-8adb-753cf104ee49" />
+
+
+
+- The Raspberry Pi Pico is on the bottom of the board to make it easier to organize things underneath the keys in the casing
+- The keys are in the Cherry Mx Profile
+- There are mounting holes on the edges to secure the PCB into the container/casing
+- Using footprints generated with KiCad (passed KiCad DRC)
+
+### Outer casing
+<img width="511" height="182" alt="image" src="https://github.com/user-attachments/assets/89f62e90-a88d-494d-a23f-9fc6cf20def1" />
+- The outer casing has three parts: The outside box, the decoration layer, and the lid (becasue a sarine box needs a lid!)
+
+### Firmware
+Firmware is uploaded to the github but is untested as of now. 
+
+### To Assemble:
+1. 3D print the outer casing and order the custom PCB
+3. Solder the switches, Raspberry Pi Pico, and any other required components onto the PCB.
+4. Snap the keycaps on top of each switch.
+5. Screw the board into the standoffs.
+         /n Note: The hole clearance is designed so the screw will bite into the standoff and stay secure.
+6. Place the PCB inside the bottom casing, making sure the USB port lines up with the cutout.
+7. Attach the top casing so only the keycaps are exposed. It should naturally rest at a spot on top of ridges.
+8. Plug the Macro-Tin into the computer using a USB cable and test that each key activates the correct shortcut.
+9. Put the lid on. It should stay secure.
+   
+### To Use:
+
+1. Plug the USB cable into the Macro-Tin and connect it to the computer.
+2. Wait for the computer to recognize it as a keyboard input device.
+3. Press one of the four keys to activate its assigned shortcut or macro.
+4. To change what the keys do, edit the firmware keymap and reload it onto the Raspberry Pi Pico.
+5. Unplug the Macro-Tin when finished, or leave it connected as a desk shortcut tool.
+
+
+#### More Details:
+- Voltage: 5V through USB-C/micro-USB to the Raspberry Pi Pico
+
+
