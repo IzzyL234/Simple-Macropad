@@ -18,6 +18,7 @@ The Pico runs firmware that reads which key was pressed and translates that butt
 The keys are programmable, meaning the shortcuts are not permanently fixed. The key functions can be changed in the firmware depending on what the user wants the macropad to do. This makes the Macro-Tin useful for different workflows, such as schoolwork, CAD design, coding, editing, or everyday computer tasks.
 <br/><br/>
 Current Functionality: 
+<br/><br/>
 <img width="377" height="84" alt="image" src="https://github.com/user-attachments/assets/22ef5872-1540-4c41-8e79-ed6a807baa48" />
 <br/><br/>
 The case is designed to look like a sardine tin, making the project both functional and decorative. The PCB and Raspberry Pi Pico are housed inside the case, while the keycaps are accessible from the top. This allows the macropad to work as a useful desk tool while still having a fun visual design.
