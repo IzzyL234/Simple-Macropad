@@ -1,4 +1,4 @@
-<img width="689" height="157" alt="image" src="https://github.com/user-attachments/assets/69a53f88-753e-4547-ba0f-8dd47d728cde" /># Macro-Tin 
+# Macro-Tin 
 
 I was inspired to make this as a way to get practice with some basic hardware and make somethng that is useful everyday! I wanted to be creative with the design, and after some looking online, found my way back to a sardine tin design that I had seen several times pop up on my feed. I thought that it was a fun and summery design and would be a cute desk decoration as well, when i'm not using it. Thus, the macro tin came to be! 
 
