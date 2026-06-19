@@ -19,7 +19,8 @@ The keys are programmable, meaning the shortcuts are not permanently fixed. The 
 <br/><br/>
 Current Functionality: 
 <br/><br/>
-<img width="377" height="84" alt="image" src="https://github.com/user-attachments/assets/22ef5872-1540-4c41-8e79-ed6a807baa48" />
+<img width="689" height="157" alt="image" src="https://github.com/user-attachments/assets/8d6d360c-4328-49b3-95c0-c9dbd7326a48" />
+
 <br/><br/>
 The case is designed to look like a sardine tin, making the project both functional and decorative. The PCB and Raspberry Pi Pico are housed inside the case, while the keycaps are accessible from the top. This allows the macropad to work as a useful desk tool while still having a fun visual design.
 
