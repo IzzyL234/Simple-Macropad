@@ -56,14 +56,27 @@ The case is designed to look like a sardine tin, to add some fun! The PCB and Ra
 - The outer casing has three parts: The outside box, the decoration layer, and the lid (becasue a sardine box needs a lid!)
 
 ### Firmware
-[Firmware](Firmware/code.py) is uploaded to the github but is untested as of now. 
+Firmware is uploaded to the github but is untested as of now. 
 The Macro-Tin is designed to run on KMK firmware with CircuitPython on a Raspberry Pi Pico. Each switch connects a GPIO pin to GND when pressed. The firmware reads the GPIO inputs and sends the assigned keyboard shortcut to the computer over USB.
 
-Planned default keymap:
-- Key 1: Copy
-- Key 2: Paste
-- Key 3: Screenshot
-- Key 4: Screenrecord
+How to Upload the Firmware:
+- Download the CircuitPython .uf2 file for the Raspberry Pi Pico.
+- Hold the BOOTSEL button on the Pico while plugging it into the computer.
+- A drive named RPI-RP2 should appear.
+- Drag the CircuitPython .uf2 file onto the RPI-RP2 drive.
+- The Pico will restart and appear as a drive named CIRCUITPY.
+- Copy the kmk folder onto the CIRCUITPY drive.
+- Copy [code.py](Firmware/code.p) onto the CIRCUITPY drive.
+- The Pico should automatically restart and run the macropad firmware.
+- Open a text box or application and press each key to test the shortcuts.
+
+
+Libraries/Firmware Used:
+- CircuitPython
+- KMK Firmware
+- board: for reference of pins
+- KC: KMK’s keycode library
+-KeysScanner: Used to read the four direct-wired key switches.
 
 As stated above, although the current settings on the keymap is for copy/paste/screenshot/screenrecord the keymap can be edited in `code.py`, making the macropad programmable for different shortcuts and workflows.
 ### To Assemble:
