@@ -56,7 +56,7 @@ The case is designed to look like a sardine tin, to add some fun! The PCB and Ra
 <img width="311" height="169" alt="image" src="https://github.com/user-attachments/assets/3c7fe2ae-fa28-42fc-ba02-abcbeaf40fbd" />
 <br/><br/>
 - The outer casing has three parts: The outside box, the decoration layer, and the lid (becasue a sardine box needs a lid!)
-
+Note: The usb cable is just a model!! it is not part of the actual 3d design
 ### Firmware
 Firmware is uploaded to the github but is untested as of now. 
 The Macro-Tin is designed to run on KMK firmware with CircuitPython on a Raspberry Pi Pico. Each switch connects a GPIO pin to GND when pressed. The firmware reads the GPIO inputs and sends the assigned keyboard shortcut to the computer over USB.
