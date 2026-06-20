@@ -3,7 +3,7 @@
 I was inspired to make this as a way to get practice with some basic hardware and make somethng that is useful everyday! I wanted to be creative with the design, and after some looking online, found my way back to a sardine tin design that I had seen several times pop up on my feed. I thought that it was a fun and summery design and would be a cute desk decoration as well, when i'm not using it. Thus, the macro tin came to be! 
 
 ## What it is: 
-The macro-tin is a four key macro pad that runs on a Raspberry Pi Pico microcontroller. The keys are programmable and customizable based on the user's needs. As I plan to use it, right now the keys are: 1) Copy/paste 2) Take a screen shot 3) Take a screen recording and 4) printing. 
+The macro-tin is a four key macro pad that runs on a Raspberry Pi Pico microcontroller. The keys are programmable and customizable based on the user's needs. As I plan to use it, right now the keys are: 1) Copy 2) Paste 3) Screenshot 4) Screen Record
 <br/><br/>
 Note: a macro pad is a small keyboard with each key being a shortcut. When pressed, it executes the longer command and is meant to increase productivity. 
 <br/><br/>
