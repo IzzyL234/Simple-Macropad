@@ -20,7 +20,8 @@ The Pico runs firmware that reads which key was pressed and translates that butt
 
 Current Functionality: 
 <br/><br/>
-<img width="412" height="95" alt="image" src="https://github.com/user-attachments/assets/bdd8af0b-f4b3-4bab-9d6d-d94166031a3f" />
+<img width="823" height="190" alt="image" src="https://github.com/user-attachments/assets/6ef528c3-ccce-4547-92c4-6c66322adcf3" />
+
 <br/><br/>
 The case is designed to look like a sardine tin, to add some fun! The PCB and Raspberry Pi Pico are housed inside the case, while the keycaps are accessible from the top.l 
 
