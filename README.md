@@ -33,7 +33,7 @@ The case is designed to look like a sardine tin, to add some fun! The PCB and Ra
   
 ### PCB
 
-[Gerber and Drill Files](Gerber Files)
+[Gerber and Drill Files](Gerber-Files)
 
 <img width="301" height="200" alt="image" src="https://github.com/user-attachments/assets/a8946e56-8303-4404-9189-a366a3300d99" />
 
@@ -48,7 +48,7 @@ The case is designed to look like a sardine tin, to add some fun! The PCB and Ra
 - Using footprints generated with KiCad (passed KiCad DRC)
 
 ### Outer casing
-[CAD and Assembly Files](Assembly and STEP Files)
+[CAD and Assembly Files](Assembly-and-STEP Files)
 <img width="511" height="182" alt="image" src="https://github.com/user-attachments/assets/89f62e90-a88d-494d-a23f-9fc6cf20def1" />
 <br/><br/>
 - The outer casing has three parts: The outside box, the decoration layer, and the lid (becasue a sardine box needs a lid!)
