@@ -33,7 +33,7 @@ The case is designed to look like a sardine tin, to add some fun! The PCB and Ra
   
 ### PCB
 
-[Gerber and Drill Files](Gerber-Files)
+[Gerber and Drill Files](Gerber_Files)
 
 <img width="301" height="200" alt="image" src="https://github.com/user-attachments/assets/a8946e56-8303-4404-9189-a366a3300d99" />
 
