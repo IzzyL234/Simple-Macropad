@@ -3,7 +3,7 @@
 I was inspired to make this as a way to get practice with some basic hardware and make somethng that is useful everyday! I wanted to be creative with the design, and after some looking online, found my way back to a sardine tin design that I had seen several times pop up on my feed. I thought that it was a fun and summery design and would be a cute desk decoration as well, when i'm not using it. Thus, the macro tin came to be! 
 
 ## What it is: 
-The macro-tin is a four key macro pad that runs on a Raspberry Pi Pico microcontroller. The keys are programmable and customizable based on the user's needs. As I plan to use it, right now the keys are: 1) Copy 2) Paste 3) Take a screen shot 3) Take a screen recording.
+The macro-tin is a four key macro pad that runs on a Raspberry Pi Pico microcontroller. The keys are programmable and customizable based on the user's needs. As I plan to use it, right now the keys are: 1) Copy/paste 2) Take a screen shot 3) Take a screen recording and 4) printing. 
 <br/><br/>
 Note: a macro pad is a small keyboard with each key being a shortcut. When pressed, it executes the longer command and is meant to increase productivity. 
 <br/><br/>
@@ -20,7 +20,7 @@ The Pico runs firmware that reads which key was pressed and translates that butt
 
 Current Functionality: 
 <br/><br/>
-<img width="689" height="157" alt="image" src="https://github.com/user-attachments/assets/8d6d360c-4328-49b3-95c0-c9dbd7326a48" />
+<img width="412" height="95" alt="image" src="https://github.com/user-attachments/assets/bdd8af0b-f4b3-4bab-9d6d-d94166031a3f" />
 <br/><br/>
 The case is designed to look like a sardine tin, to add some fun! The PCB and Raspberry Pi Pico are housed inside the case, while the keycaps are accessible from the top.l 
 
@@ -47,6 +47,7 @@ The case is designed to look like a sardine tin, to add some fun! The PCB and Ra
 - Using footprints generated with KiCad (passed KiCad DRC)
 
 ### Outer casing
+[CAD and Assembly Files](Assembly and STEP Files)
 <img width="511" height="182" alt="image" src="https://github.com/user-attachments/assets/89f62e90-a88d-494d-a23f-9fc6cf20def1" />
 <br/><br/>
 - The outer casing has three parts: The outside box, the decoration layer, and the lid (becasue a sardine box needs a lid!)
@@ -54,6 +55,12 @@ The case is designed to look like a sardine tin, to add some fun! The PCB and Ra
 ### Firmware
 [Firmware](Firmware/code.py) is uploaded to the github but is untested as of now. 
 The Macro-Tin is designed to run on KMK firmware with CircuitPython on a Raspberry Pi Pico. Each switch connects a GPIO pin to GND when pressed. The firmware reads the GPIO inputs and sends the assigned keyboard shortcut to the computer over USB.
+
+Planned default keymap:
+- Key 1: Copy
+- Key 2: Paste
+- Key 3: Screenshot
+- Key 4: Screenrecord
 
 As stated above, although the current settings on the keymap is for copy/paste/screenshot/screenrecord the keymap can be edited in `code.py`, making the macropad programmable for different shortcuts and workflows.
 ### To Assemble:
