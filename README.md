@@ -15,24 +15,24 @@ Zine:
 
 The Macro-Tin works by using a Raspberry Pi Pico as the main controller. Each of the four keys is connected to the Pico through the PCB. When a key is pressed, the switch closes the circuit and sends a signal to one of the Pico’s input pins.
 
-The Pico runs firmware that reads which key was pressed and translates that button press into a keyboard shortcut. To the computer, the Macro-Tin acts like a small USB keyboard. Instead of typing letters, each key sends a programmed command, such as copy and paste, taking a screenshot, starting a screen recording, or printing.
+The Pico runs firmware that reads which key was pressed and translates that button press into a keyboard shortcut. 
 
-The keys are programmable, meaning the shortcuts are not permanently fixed. The key functions can be changed in the firmware depending on what the user wants the macropad to do. This makes the Macro-Tin useful for different workflows, such as schoolwork, CAD design, coding, editing, or everyday computer tasks.
-<br/><br/>
+
 Current Functionality: 
 <br/><br/>
 <img width="689" height="157" alt="image" src="https://github.com/user-attachments/assets/8d6d360c-4328-49b3-95c0-c9dbd7326a48" />
 <br/><br/>
-The case is designed to look like a sardine tin, making the project both functional and decorative. The PCB and Raspberry Pi Pico are housed inside the case, while the keycaps are accessible from the top. This allows the macropad to work as a useful desk tool while still having a fun visual design.
+The case is designed to look like a sardine tin, to add some fun! The PCB and Raspberry Pi Pico are housed inside the case, while the keycaps are accessible from the top.l 
 
 ### Schematic
 <img width="238" height="223" alt="image" src="https://github.com/user-attachments/assets/600acf50-d4ba-4e5a-9bb7-99ad3be6c42c" />
 <br/><br/>
 - All keys are connected to GND (ground)
-- Each key is wired to a GPIO# pin on the microcontroller
+- Each key is also connected to a GPIO# pin on the microcontroller
   
 ### PCB
 
+[Gerber and Drill Files](Gerber Files)
 
 <img width="301" height="200" alt="image" src="https://github.com/user-attachments/assets/a8946e56-8303-4404-9189-a366a3300d99" />
 
@@ -49,7 +49,7 @@ The case is designed to look like a sardine tin, making the project both functio
 ### Outer casing
 <img width="511" height="182" alt="image" src="https://github.com/user-attachments/assets/89f62e90-a88d-494d-a23f-9fc6cf20def1" />
 <br/><br/>
-- The outer casing has three parts: The outside box, the decoration layer, and the lid (becasue a sarine box needs a lid!)
+- The outer casing has three parts: The outside box, the decoration layer, and the lid (becasue a sardine box needs a lid!)
 
 ### Firmware
 Firmware is uploaded to the github but is untested as of now. 
@@ -61,7 +61,7 @@ Firmware is uploaded to the github but is untested as of now.
 5. Screw the board into the standoffs.
          /n Note: The hole clearance is designed so the screw will bite into the standoff and stay secure.
 6. Place the PCB inside the bottom casing, making sure the USB port lines up with the cutout.
-7. Attach the top casing so only the keycaps are exposed. It should naturally rest at a spot on top of ridges.
+7. Attach the top casing so only the keycaps are exposed. It should naturally rest on top. 
 8. Plug the Macro-Tin into the computer using a USB cable and test that each key activates the correct shortcut.
 9. Put the lid on. It should stay secure.
    
