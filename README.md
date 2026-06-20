@@ -53,7 +53,15 @@ The case is designed to look like a sardine tin, to add some fun! The PCB and Ra
 
 ### Firmware
 Firmware is uploaded to the github but is untested as of now. 
+The Macro-Tin is designed to run on KMK firmware with CircuitPython on a Raspberry Pi Pico. Each switch connects a GPIO pin to GND when pressed. The firmware reads the GPIO inputs and sends the assigned keyboard shortcut to the computer over USB.
 
+Planned default keymap:
+- Key 1: Copy
+- Key 2: Paste
+- Key 3: Screenshot
+- Key 4: Print
+
+The keymap can be edited in `code.py`, making the macropad programmable for different shortcuts and workflows.
 ### To Assemble:
 1. 3D print the outer casing and order the custom PCB
 3. Solder the switches, Raspberry Pi Pico, and any other required components onto the PCB.
