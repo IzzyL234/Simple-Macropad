@@ -103,11 +103,13 @@ As stated above, although the current settings on the keymap is for copy/paste/s
 - Voltage: 5V through USB-C/micro-USB to the Raspberry Pi Pico
 
 ### BOM
-| Item                    |                      Cost | Link                                                                                     |
-| ----------------------- | ------------------------: | ---------------------------------------------------------------------------------------- |
-| Raspberry Pi Pico 1     |                     $7.00 | https://www.pishop.us/product/raspberry-pi-pico-wh-pre-soldered-headers/?src=raspberrypi |
-| Mechanical Switches (4) |                     $0.99 | https://www.aliexpress.us/item/3256806066297936.html                                     |
-| Key Caps (4)            |                     $4.31 | https://www.aliexpress.us/item/3256809198369912.html                                     |
-| Custom PCB Board        | $20.07 including shipping | https://www.nextpcb.com/                                                                 |
-| **Total**               |                **$32.37** |                                                                                          |
+| Item                           |                      Cost | Link                                                                                     |
+| ------------------------------ | ------------------------: | ---------------------------------------------------------------------------------------- |
+| Raspberry Pi Pico 1            |                     $7.00 | https://www.pishop.us/product/raspberry-pi-pico-wh-pre-soldered-headers/?src=raspberrypi |
+| Mechanical Switches (4)        |                     $0.99 | https://www.aliexpress.us/item/3256806066297936.html                                     |
+| Key Caps (4)                   |                     $4.31 | https://www.aliexpress.us/item/3256809198369912.html                                     |
+| Custom PCB Board               | $20.07 including shipping | https://www.nextpcb.com/                                                                 |
+| 2.2 mm Rounded Head Screws (4) |         $12.48 pack of 50 | https://www.mcmaster.com/94997A125/                                                      |
+| **Total Price**                |                **$44.85** |                                                                                          |
+
 
