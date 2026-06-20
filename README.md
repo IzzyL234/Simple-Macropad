@@ -3,7 +3,7 @@
 I was inspired to make this as a way to get practice with some basic hardware and make somethng that is useful everyday! I wanted to be creative with the design, and after some looking online, found my way back to a sardine tin design that I had seen several times pop up on my feed. I thought that it was a fun and summery design and would be a cute desk decoration as well, when i'm not using it. Thus, the macro tin came to be! 
 
 ## What it is: 
-The macro-tin is a four key macro pad that runs on a Raspberry Pi Pico microcontroller. The keys are programmable and customizable based on the user's needs. As I plan to use it, right now the keys are: 1) Copy/paste 2) Take a screen shot 3) Take a screen recording and 4) printing. 
+The macro-tin is a four key macro pad that runs on a Raspberry Pi Pico microcontroller. The keys are programmable and customizable based on the user's needs. As I plan to use it, right now the keys are: 1) Copy 2) Paste 3) Take a screen shot 3) Take a screen recording.
 <br/><br/>
 Note: a macro pad is a small keyboard with each key being a shortcut. When pressed, it executes the longer command and is meant to increase productivity. 
 <br/><br/>
@@ -52,16 +52,10 @@ The case is designed to look like a sardine tin, to add some fun! The PCB and Ra
 - The outer casing has three parts: The outside box, the decoration layer, and the lid (becasue a sardine box needs a lid!)
 
 ### Firmware
-Firmware is uploaded to the github but is untested as of now. 
+[Firmware](Firmware/code.py) is uploaded to the github but is untested as of now. 
 The Macro-Tin is designed to run on KMK firmware with CircuitPython on a Raspberry Pi Pico. Each switch connects a GPIO pin to GND when pressed. The firmware reads the GPIO inputs and sends the assigned keyboard shortcut to the computer over USB.
 
-Planned default keymap:
-- Key 1: Copy
-- Key 2: Paste
-- Key 3: Screenshot
-- Key 4: Print
-
-The keymap can be edited in `code.py`, making the macropad programmable for different shortcuts and workflows.
+As stated above, although the current settings on the keymap is for copy/paste/screenshot/screenrecord the keymap can be edited in `code.py`, making the macropad programmable for different shortcuts and workflows.
 ### To Assemble:
 1. 3D print the outer casing and order the custom PCB
 3. Solder the switches, Raspberry Pi Pico, and any other required components onto the PCB.
