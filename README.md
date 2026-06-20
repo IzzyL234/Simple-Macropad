@@ -9,7 +9,7 @@ Note: a macro pad is a small keyboard with each key being a shortcut. When press
 <br/><br/>
 Zine:
 <br/><br/>
-<img width="1410" height="2000" alt="image" src="https://github.com/user-attachments/assets/b0c7c6a0-8ad9-4a82-8bcc-6324e4970b0b" />
+<img width="705" height="1000" alt="image" src="https://github.com/user-attachments/assets/d003d0f7-ca1f-4964-908d-5987f2aa5cab" />
 
 ## How it Works:
 
