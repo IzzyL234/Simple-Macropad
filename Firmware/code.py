@@ -22,8 +22,8 @@ keyboard.matrix = KeysScanner(
 keyboard.keymap = [
     [
         KC.LCTRL(KC.C),             # Copy
-        KC.LCTRL(KC.V),             # Paste
-        KC.LGUI(KC.LSHIFT(KC.S)),   # Screenshot
+        KC.LGUI(KC.LSHIFT(KC.S)),             # Screenshot
+        KC.LGUI(KC.LALT(KC.R)),   # Screenrecord
         KC.LCTRL(KC.P),             # Print
     ]
 ]
