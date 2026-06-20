@@ -53,6 +53,8 @@ The case is designed to look like a sardine tin, to add some fun! The PCB and Ra
 
 <img width="511" height="182" alt="image" src="https://github.com/user-attachments/assets/89f62e90-a88d-494d-a23f-9fc6cf20def1" />
 <br/><br/>
+<img width="311" height="169" alt="image" src="https://github.com/user-attachments/assets/3c7fe2ae-fa28-42fc-ba02-abcbeaf40fbd" />
+<br/><br/>
 - The outer casing has three parts: The outside box, the decoration layer, and the lid (becasue a sardine box needs a lid!)
 
 ### Firmware
